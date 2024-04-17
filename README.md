@@ -15,11 +15,13 @@ Check the nvm version.
 
 5. List available node versions
 > nvm ls
-All node versions are installed at C:\Users\Admin\AppData\Roaming\nvm
+
+*All node versions are installed at C:\Users\Admin\AppData\Roaming\nvm
 
 6. Switch to a node version
 > nvm use 16.20.2
-Windows should prompt you for adminstrator rights. If it doesn't, rerun cmd as administrator and repeat the step. This will create the symbolic link C:\Program Files\nodejs.
+
+*Windows should prompt you for adminstrator rights. If it doesn't, rerun cmd as administrator and repeat the step. This will create the symbolic link C:\Program Files\nodejs.
 
 7. Check the node version.
 > node --version
